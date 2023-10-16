@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
-     public function login()
+     public function registro()
      {
-        return \view('pages.login');
+        return \view('pages.registro');
      }
 
 

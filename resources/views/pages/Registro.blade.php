@@ -8,8 +8,8 @@
           <div class="container">
             <div class="row align-items-center justify-content-center">
               <div class="col-md-7">
-                <h3>Iniciar Sesion<strong></strong></h3>
-                <p class="mb-4">Inicia sesion en la pagina web para seguir navegando</p>
+                <h3>Registrate<strong></strong></h3>
+                <p class="mb-4">Registrate en nuestra pagina web</p>
                 <form action="#" method="post">
                   <div class="form-group first">
                     <label for="username">Correo</label>
@@ -28,7 +28,7 @@
                     <span class="ml-auto"><a href="#" class="forgot-pass">Recuperar Contraseña</a></span> 
                   </div>
     
-                  <input type="submit" value="Iniciar Sesión" class="btn btn-block btn-primary">
+                  <input type="submit" value="Completar registro" class="btn btn-block btn-primary">
     
                 </form>
               </div>

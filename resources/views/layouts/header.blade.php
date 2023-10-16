@@ -1,7 +1,7 @@
 
 <ul class="nav justify-content-center custom-background">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
+    <a class="nav-link active" aria-current="page" href="{{ route('login') }}">Registro</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Inicio</a>

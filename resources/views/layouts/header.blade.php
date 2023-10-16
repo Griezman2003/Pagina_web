@@ -7,7 +7,7 @@
     <a class="nav-link" href="#">Inicio</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contenido</a>
+    <a class="nav-link" href="#">Destacados</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Informacion</a>

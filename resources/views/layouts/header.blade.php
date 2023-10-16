@@ -1,4 +1,4 @@
-
+<nav class="d-md-bloc">
 <ul class="nav justify-content-center custom-background">
   <li>
     <img class="logo" src="assets/images/logo3.png">
@@ -18,5 +18,6 @@
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="{{ route('registro') }}">Registro</a>
   </li>
-
 </ul>
+</nav>
+

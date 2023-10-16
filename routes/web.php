@@ -18,5 +18,5 @@ use App\Http\Controllers\LoginController;
 //     return view('welcome');
 // });
 
-Route::get('/', [Logincontroller::class, 'registro'])->name('registro');
-Route::get('pagina', [Logincontroller::class, 'pagina'])->name('contenido');
+Route::get('/', [Logincontroller::class, 'pagina'])->name('contenido');
+Route::get('registro', [Logincontroller::class, 'registro'])->name('registro');

@@ -28,13 +28,13 @@ color: rgba(232, 245, 161, 0.479);
     margin-right: 70px;
 }
 
-.destacados{
+#destacados{
     margin-top: 25px;
     margin-bottom: 25px;
     
 }
 
-.destacados .titulo{
+#destacados .titulo{
     font-size: 1.3em;
     padding-left: 22.1%;
     font-family: arial;

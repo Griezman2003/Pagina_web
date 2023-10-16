@@ -1,4 +1,4 @@
-<section class="carrusel">
+<section id="carrusel">
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="4000">
@@ -10,8 +10,8 @@
     </div>
   </div>
 
-
-<section class="destacados">
+  
+<section id="destacados">
 <div class="container-fluid"><h1 class="titulo">DESTACADOS</h1></div>
 </section>
 

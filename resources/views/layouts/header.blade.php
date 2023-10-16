@@ -4,10 +4,10 @@
     <img class="logo" src="assets/images/logo3.png">
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Inicio</a>
+    <a class="nav-link" href="#carrusel">Inicio</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Destacados</a>
+    <a class="nav-link" href="#destacados">Destacados</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Informacion</a>

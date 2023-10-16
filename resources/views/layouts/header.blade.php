@@ -10,6 +10,10 @@
     <a class="nav-link" href="#">Contacto</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <a class="nav-link" href="#">Contenido</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Informacion</a>
+  </li>
+
 </ul>

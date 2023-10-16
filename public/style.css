@@ -21,7 +21,7 @@ color: rgba(232, 245, 161, 0.479);
 .carousel-item img{
     margin-top: 30px;
     display: inline-block;;
-    max-width: 65%;
+    max-width: 55%;
 }
 .logo{
     width: 120px;
@@ -29,18 +29,24 @@ color: rgba(232, 245, 161, 0.479);
 }
 
 .destacados{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 }
 
 .destacados .titulo{
     font-size: 1.3em;
-    padding-left: 17%;
+    padding-left: 22.1%;
+    font-family: arial;
 }
 .card-group{
     padding-left: 20%;
     width: 80%;
+}
+
+.card{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 15px 15px 10px;
 }
 
 

@@ -1,7 +1,7 @@
 
 <ul class="nav justify-content-center custom-background">
   <li>
-    <img class="logo" src="assets/images/logo.png">
+    <img class="logo" src="assets/images/logo3.png">
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Inicio</a>

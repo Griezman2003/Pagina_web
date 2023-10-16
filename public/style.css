@@ -6,13 +6,20 @@
 .nav-item{
     display: flex;
     margin-top: 7px;
+}
+
+.nav-item :hover{
+background-color: #ffffff8e;
+border-radius: 10px;
+color: rgba(232, 245, 161, 0.479);
 
 }
 
 .nav-link{
-    color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'arial';
 }
+
 
 .carousel-item img{
     margin-top: 30px;

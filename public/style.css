@@ -26,3 +26,7 @@ color: rgba(232, 245, 161, 0.479);
     display: inline-block;;
     max-width: 65%;
 }
+
+.logo{
+    width: 100px;
+}

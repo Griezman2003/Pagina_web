@@ -1,4 +1,4 @@
-<!-- <section class="carrusel">
+<section class="carrusel">
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="5000">
@@ -11,22 +11,34 @@
   </div>
 
 <div class="contenido">
-<div class="container-sm">Contenido</div>
-  </section>
 
-  <section class="card">
-  <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md 12">
-      <img src="..." class="img-fluid rounded-start" alt="...">
+<section class="destacados">
+<div class="container-fluid"><h1 class="titulo">DESTACADOS</h1></div>
+</section>
+
+<div class="card-group">
+  <div class="card">
+    <img src="https://i.blogs.es/09c084/roblox-juegos/450_1000.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Título de la tarjeta</h5>
+      <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
+      <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
+  </div>
+  <div class="card">
+    <img src="https://i.blogs.es/09c084/roblox-juegos/450_1000.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Título de la tarjeta</h5>
+      <p class="card-text">Esta tarjeta tiene texto de apoyo a continuación como una introducción natural a contenido adicional.</p>
+      <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.blogs.es/09c084/roblox-juegos/450_1000.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Título de la tarjeta</h5>
+      <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Esta tarjeta tiene un contenido aún más largo que la primera para mostrar esa acción de igual altura.</p>
+      <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
     </div>
   </div>
 </div>
-  </section> -->

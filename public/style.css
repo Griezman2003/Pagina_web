@@ -7,38 +7,40 @@
     display: flex;
     margin-top: 7px;
 }
-
 .nav-item :hover{
 background-color: #ffffff8e;
 border-radius: 10px;
 color: rgba(232, 245, 161, 0.479);
 
 }
-
 .nav-link{
     color: white;
     font-family: 'arial';
 }
-
 
 .carousel-item img{
     margin-top: 30px;
     display: inline-block;;
     max-width: 65%;
 }
-
 .logo{
     width: 120px;
     margin-right: 70px;
 }
 
-.contenido{
-    text-align: center;
-    font-family: arial;
-    font-size: 2.5em;
+.destacados{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
-.card{
-    align-items: center;
-    margin-left: 50px;
+.destacados .titulo{
+    font-size: 1.3em;
+    padding-left: 17%;
 }
+.card-group{
+    padding-left: 20%;
+    width: 80%;
+}
+
+

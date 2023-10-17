@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CuentaController;
 
 
@@ -20,6 +19,6 @@ use App\Http\Controllers\CuentaController;
 //     return view('welcome');
 // });
 
-Route::get('/', [Logincontroller::class, 'pagina'])->name('contenido');
-Route::get('registro', [Logincontroller::class, 'registro'])->name('registro');
+Route::get('/', [Cuentacontroller::class, 'pagina'])->name('contenido');
+Route::get('registro', [CuentaController::class, 'registro'])->name('registro');
 Route::post('validar', [Cuentacontroller::class, 'validar'])->name('validado');

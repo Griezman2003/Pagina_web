@@ -9,19 +9,19 @@
               <div class="col-md-7">
                 <h3>Registrate<strong></strong></h3>
                 <p class="mb-4">Registrate en nuestra pagina web</p>
-                <form action="{{ route('validar')}}" method="POST">
+                <form action="{{ route('validar') }}" method="POST">
                   @csrf
                   <div class="form-group first">
                     <label for="nombre">nombre</label>
-                    <input type="text" class="form-control" placeholder="Nombre" id="nombre" nombre="nombre">
+                    <input type="text" class="form-control" placeholder="Nombre" id="nombre"  name="nombre" required>
                   </div>
                   <div class="form-group first">
                     <label for="email">email</label>
-                    <input type="email" class="form-control" placeholder="Correo@gmail.com" id="email" email="email">
+                    <input type="email" class="form-control" placeholder="Correo@gmail.com" id="email" name="email" required>
                   </div>
                   <div class="form-group last mb-3">
                     <label for="password">password</label>
-                    <input type="password" class="form-control" placeholder="Contraseña" id="password" password="password">
+                    <input type="password" class="form-control" placeholder="Contraseña" id="password" name="password" required>
                   </div>
                   {{-- <div class="form-group last mb-3">
                     <label for="text">Telefono</label>

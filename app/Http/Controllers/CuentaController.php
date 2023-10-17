@@ -5,22 +5,32 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Cuenta;
 
-class FormController extends Controller
+class CuentaController extends Controller
 {
-    public function validar(Request $request)
+    public function validate(Request $request)
     {
         $validated = $request->validate([
             'nombre' => 'required',
-            'email' => '| email | unique:forms',
-            'password' => '',
+            'email' => 'required',
+            'password' => 'required',
             ]); 
             $usuario = new cuenta;
             $usuario->nombre = $request->nombre;
             $usuario->email = $request->email;
-            $usuario->password = $request->pasword;
+            $usuario->password = $request->password;
             
             $usuario->save();
             return back()-> with('success', 'formulario validado correctamente');
 
         }
+        public function registro()
+        {
+           return \view('pages.registro');
+        }
+   
+   
+       public function pagina()
+       {
+           return \view('pages.pagina');
+       }
 }

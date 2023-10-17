@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,4 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', [Logincontroller::class, 'pagina'])->name('contenido');
 Route::get('registro', [Logincontroller::class, 'registro'])->name('registro');
-Route::post('validar', [Usercontroller::class, 'validar'])->name('validar');
+Route::post('validar', [Formcontroller::class, 'validar'])->name('validar');

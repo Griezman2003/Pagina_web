@@ -9,11 +9,10 @@ class Cuenta extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'user_id',
+    public $fillable = [
         'nombre',
-        'tipo',
-        'descripcion',
+        'email',
+        'password',
     ];
 
 }

@@ -12,16 +12,16 @@
                 <form action="{{ route('validar')}}" method="POST">
                   @csrf
                   <div class="form-group first">
-                    <label for="nombre">name</label>
-                    <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+                    <label for="nombre">nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="nombre" nombre="nombre">
                   </div>
                   <div class="form-group first">
                     <label for="email">email</label>
-                    <input type="email" class="form-control" placeholder="Correo@gmail.com" id="email">
+                    <input type="email" class="form-control" placeholder="Correo@gmail.com" id="email" email="email">
                   </div>
                   <div class="form-group last mb-3">
                     <label for="password">password</label>
-                    <input type="password" class="form-control" placeholder="Contraseña" id="password">
+                    <input type="password" class="form-control" placeholder="Contraseña" id="password" password="password">
                   </div>
                   {{-- <div class="form-group last mb-3">
                     <label for="text">Telefono</label>
@@ -45,12 +45,4 @@
         </div>
       </div>   
   </section> 
-  @if ($errors->any())
-  <div class="alert alert-danger">
-    <ul>
-  @foreach ($errors->all() as $error)
-  <li>{{ $error }}</li>
-  @endforeach
-  </ul>
-  </div>
-  @endif
+@dump($errors -> all())

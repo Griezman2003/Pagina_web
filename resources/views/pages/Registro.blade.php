@@ -31,7 +31,7 @@
                     <span class="ml-auto"><a href="#" class="forgot-pass">Recuperar Contraseña</a></span> 
                   </div>
     
-                  <input type="submit" value="Completar registro" class="btn btn-block btn-primary">
+                  <button class="btn btn-primary" type="submit">Aceptar</button> 
     
                 </form>
               </div>

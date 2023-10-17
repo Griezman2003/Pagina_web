@@ -10,14 +10,14 @@ class CuentaController extends Controller
     {
         $validated = $request->validate([
             'nombre' => 'required',
-            'email' => '| email | unique: cuentas', 'required',
+            'email' =>  'required',
             'password' => 'required',
             //'submit' => 'required',
             ]); 
             $usuario = new cuenta;
             $usuario->nombre = $request->nombre;
             $usuario->email = $request->email;
-            $usuario->password = $request->pasword;
+            $usuario->password = $request->password;
             
             $usuario->save();
             return redirect('/')-> with('success', 'formulario validado correctamente');

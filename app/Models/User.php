@@ -23,7 +23,7 @@ class User extends Authenticatable
         'password',
     ];
     
-    public function cuenta()
+    public function Cuenta()
     {
         return $this->hasOne(Cuenta::class);
     }

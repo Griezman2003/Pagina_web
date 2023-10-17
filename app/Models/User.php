@@ -22,7 +22,11 @@ class User extends Authenticatable
         'email',
         'password',
     ];
-
+    
+    public function cuenta()
+    {
+        return $this->hasOne(Cuenta::class);
+    }
     /**
      * The attributes that should be hidden for serialization.
      *

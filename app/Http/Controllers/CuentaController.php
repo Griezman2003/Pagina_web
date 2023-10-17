@@ -12,6 +12,7 @@ class CuentaController extends Controller
             'nombre' => 'required',
             'email' => '| email | unique: cuentas', 'required',
             'password' => 'required',
+            //'submit' => 'required',
             ]); 
             $usuario = new cuenta;
             $usuario->nombre = $request->nombre;
@@ -19,7 +20,7 @@ class CuentaController extends Controller
             $usuario->password = $request->pasword;
             
             $usuario->save();
-            return back()-> with('success', 'formulario validado correctamente');
+            return redirect('/')-> with('success', 'formulario validado correctamente');
 
         }
 }

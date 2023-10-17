@@ -9,7 +9,7 @@
               <div class="col-md-7">
                 <h3>Registrate<strong></strong></h3>
                 <p class="mb-4">Registrate en nuestra pagina web</p>
-                <form action="{{ route('validar')}}" method="POST">
+                <form action="{{ route('validado')}}" method="POST">
                   @csrf
                   <div class="form-group first">
                     <label for="nombre">nombre</label>

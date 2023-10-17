@@ -1,11 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
 use App\Models\Cuenta;
+use Illuminate\Http\Request;
 
-class FormController extends Controller
+class CuentaController extends Controller
 {
     public function validar(Request $request)
     {

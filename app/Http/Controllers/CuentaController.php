@@ -10,8 +10,8 @@ class CuentaController extends Controller
     {
         $validated = $request->validate([
             'nombre' => 'required',
-            'email' => '| email | unique:forms',
-            'password' => '',
+            'email' => '| email | unique: cuentas', 'required',
+            'password' => 'required',
             ]); 
             $usuario = new cuenta;
             $usuario->nombre = $request->nombre;

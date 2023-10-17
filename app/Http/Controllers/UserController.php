@@ -11,19 +11,19 @@ class UserController extends Controller
     {
         $validated = $request->validate([
             'name' => 'string',
-            'email' => 'required|email|unique:users,email',
+            'email' => '',
             'password' => '',
             ]); 
             $usuario = User::create([
-                'nombre' => $request->input('nombre'),
-                'email' => $request->input('email'),
+                'name' => 'required|string|max:255',
+                'email' => 'required|email|unique:users,email',
                 'password' => bcrypt($request->input('password')),
             ]);
             
             $cuenta = new Cuenta([
-                'nombre' => 'NombreDeLaCuenta',
-                'tipo' => 'TipoDeCuenta', // Define el tipo adecuado
-                'descripcion' => 'Descripción de la cuenta',
+                'nombre' => 'Blurry',
+                'tipo' => 'Personal', // Define el tipo adecuado
+                'descripcion' => 'hola de nuevo',
             ]);
             
             $usuario->cuenta()->save($cuenta);

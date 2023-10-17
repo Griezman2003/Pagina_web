@@ -23,11 +23,6 @@
                     <label for="password">password</label>
                     <input type="password" class="form-control" placeholder="Contraseña" id="password" name="password" required>
                   </div>
-                  {{-- <div class="form-group last mb-3">
-                    <label for="text">Telefono</label>
-                    <input type="text" class="form-control" placeholder="Telefono" id="telefono">
-                  </div> --}}
-                  
                   <div class="d-flex mb-5 align-items-center">
                     <label class="control control--checkbox mb-0"><span class="caption">Recordar</span>
                       <input type="checkbox" checked="checked"/>

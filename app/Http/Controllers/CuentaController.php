@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 use App\Models\Cuenta;
 use App\Models\User;
-use Illuminate\Validation;
 use Illuminate\Http\Request;
 
 class CuentaController extends Controller
@@ -13,7 +12,7 @@ class CuentaController extends Controller
         $validated = $request->validate([
             'nombre' => 'required',
             'email' =>  'required',
-            'password' => bcrypt($request->password),
+            'password' => 'required'
             ]); 
             $usuario = new cuenta;
             $usuario->nombre = $request->nombre;

@@ -9,11 +9,19 @@
               <div class="col-md-7">
                 <h3>Registrate<strong></strong></h3>
                 <p class="mb-4">Registrate en nuestra pagina web</p>
+<<<<<<< HEAD
                 <form action="{{ route('validar') }}" method="POST">
                   @csrf
                   <div class="form-group first">
                     <label for="nombre">nombre</label>
                     <input type="text" class="form-control" placeholder="Nombre" id="nombre"  name="nombre" required>
+=======
+                <form action="{{ route('validado')}}" method="POST">
+                  @csrf
+                  <div class="form-group first">
+                    <label for="nombre">nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" required>
+>>>>>>> refs/remotes/origin/main
                   </div>
                   <div class="form-group first">
                     <label for="email">email</label>
@@ -23,11 +31,6 @@
                     <label for="password">password</label>
                     <input type="password" class="form-control" placeholder="Contraseña" id="password" name="password" required>
                   </div>
-                  {{-- <div class="form-group last mb-3">
-                    <label for="text">Telefono</label>
-                    <input type="text" class="form-control" placeholder="Telefono" id="telefono">
-                  </div> --}}
-                  
                   <div class="d-flex mb-5 align-items-center">
                     <label class="control control--checkbox mb-0"><span class="caption">Recordar</span>
                       <input type="checkbox" checked="checked"/>
@@ -36,7 +39,7 @@
                     <span class="ml-auto"><a href="#" class="forgot-pass">Recuperar Contraseña</a></span> 
                   </div>
     
-                  <input type="submit" value="Completar registro" class="btn btn-block btn-primary">
+                  <button class="btn btn-primary" type="submit">Aceptar</button> 
     
                 </form>
               </div>

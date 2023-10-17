@@ -1,13 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-<<<<<<< HEAD
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\CuentaController;
-=======
 use App\Http\Controllers\CuentaController;
 
->>>>>>> refs/remotes/origin/main
 
 /*
 |--------------------------------------------------------------------------
@@ -25,10 +20,5 @@ use App\Http\Controllers\CuentaController;
 // });
 
 Route::get('/', [Cuentacontroller::class, 'pagina'])->name('contenido');
-<<<<<<< HEAD
 Route::get('registro', [Cuentacontroller::class, 'registro'])->name('registro');
-Route::Post('validar', [CuentaController::class, 'validate'])->name('validar');
-=======
-Route::get('registro', [CuentaController::class, 'registro'])->name('registro');
 Route::post('validar', [Cuentacontroller::class, 'validar'])->name('validado');
->>>>>>> refs/remotes/origin/main

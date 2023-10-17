@@ -10,7 +10,6 @@ class Cuenta extends Model
     use HasFactory;
 
     public $fillable = [
-        'user_id',
         'nombre',
         'email',
         'password',

@@ -18,7 +18,7 @@ class CuentaController extends Controller
             $usuario->email = $request->email;
             $usuario->password = $request->password;
             $usuario->save();
-            return redirect('/')-> with('success', 'formulario validado correctamente');
+            return redirect('/')-> with('mensaje', 'Se ha registrado exitosamente');
 
         }
         public function registro()

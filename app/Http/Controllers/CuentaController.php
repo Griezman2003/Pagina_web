@@ -31,4 +31,8 @@ class CuentaController extends Controller
        {
            return \view('pages.pagina');
        }
+       public function contacto()
+       {
+           return \view('pages.contacto');
+       }
 }

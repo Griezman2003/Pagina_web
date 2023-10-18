@@ -13,7 +13,7 @@
     <a class="nav-link" href="#">Informacion</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contacto</a>
+    <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="{{ route('registro') }}">Registro</a>

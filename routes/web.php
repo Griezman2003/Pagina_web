@@ -22,3 +22,4 @@ use App\Http\Controllers\CuentaController;
 Route::get('/', [Cuentacontroller::class, 'pagina'])->name('contenido');
 Route::get('registro', [Cuentacontroller::class, 'registro'])->name('registro');
 Route::post('validar', [Cuentacontroller::class, 'validar'])->name('validado');
+Route::get('contacto',[ContactoController::class, 'contacto'])->name('contacto');

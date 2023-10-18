@@ -21,6 +21,7 @@ definido una estructura.
 * Implementar un cifrado de contraseña y correo en la base de datos
 * Implementar una API de informacion actualizada en tiempo real respecto a los juegos
 * Implementar las demas vistas, (Información, Contacto)
+* Almacenar las imagenes usadas en una base de datos
 
 ## Experiencia
 

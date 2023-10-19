@@ -38,4 +38,4 @@ la base de datos y por ultimo la validacion de formularios.
 ## Fecha final
 18/Octubre/2023
 
-## Desarollador web Junior
+## Desarrollador web Junior

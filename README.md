@@ -7,13 +7,12 @@ principio se plantearon como objetivos que beneficiarian a la practica y el cono
 
 ## Objetivos generales
 
-* Implementar diseños de bootstrap
-* Manejo de estructura de carpetas ordenadas
-* Implementar el uso y conexion de base de datos
-* Validar datos en formularios
+* Implementar diseños de bootstrap (Basico)
+* Manejo de estructura de carpetas ordenadas (Basico)
+* Implementar el uso y conexion de base de datos (Basico)
 ## Fase de desarollo 1
 
-La pagina web tendra como principal funcion solo mostrar informacion de juegos, los mas relevantes de este año,
+La pagina web tendra como principal funcion solo mostrar informacion de juegos, los mas relevantes,
 debido a que esta en  la fase de desarrollo no esta a un completa pero ya esta difinido un orden y de igual forma ya tiene
 definido una estructura.
 ## Funciones futuras, fase 2
@@ -38,4 +37,4 @@ la base de datos y por ultimo la validacion de formularios.
 ## Fecha final
 18/Octubre/2023
 
-## Desarrollador web Junior
+## Students

@@ -11,6 +11,7 @@
    @include('layouts.header')
    @include('layouts.scripts')
    @include('layouts.cuerpo')
+   @include('layouts.footer')
   
   </body>
 </html>
